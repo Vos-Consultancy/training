@@ -33,14 +33,20 @@ Now, Stuxnet was a state-sponsored attack designed for a very specific target. M
 
 These “hidden connections” can provide attackers with unexpected ways into your critical systems.
 
-### Ways you can lose your data
+### Ways You Can Lose Your Data
 
-I was recently tasked with helping a factory which had their data stolen, upon investigating I found that the data had actually not been stolen. the data had been taken because of poor policies, the factory allowed privately owned devices to be used on the network, and to access the company storage. the people in question had done as they had been told, they hooked up their personal phone to the company email server and file server, when they subsequestly changed jobs, their devices were not cleaned by the IT department;
+I was recently tasked with helping a factory that believed their data had been stolen. After investigating, I found that the data hadn’t actually been stolen, it had been taken because of poor internal policies.
 
-* Policy allowed for use of a personal device
-* No clear workflow and no policy on employee termination (Manager > HR > IT)
-* No proper isolation on company data on a personal device
-* No way for IT to clean a personal device after termination
+The factory allowed privately owned devices to connect to the company network and access company storage. The employees involved were simply following instructions: they connected their personal phones to the company’s email server and file server. 
+
+When they later left the company, their devices were not cleaned or wiped by IT.
+
+Here’s what went wrong:
+
+- Policy allowed the use of personal devices
+- No clear workflow or policy for employee termination (no structured handover from Manager to HR to IT)
+- No proper isolation of company data on personal devices
+- No way for IT to clean or revoke access from personal devices after termination
 
 ## Trainer’s Profile
 
