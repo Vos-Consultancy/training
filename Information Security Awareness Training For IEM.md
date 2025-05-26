@@ -29,9 +29,18 @@ Now, Stuxnet was a state-sponsored attack designed for a very specific target. M
 ### What engineering companies should watch out for instead are:
 
 - **Supply chain vulnerabilities**  
-- **Fake air-gapped devices**,  systems that appear isolated but are still connected in some way, whether via USB, serial cables, Bluetooth, Zigbee, or industrial protocols like Modbus, PROFINET, DNP3, BACnet, or MQTT.
+- **Fake air-gapped devices**, systems that appear isolated but are still connected in some way, whether via USB, serial cables, Bluetooth, Zigbee, or industrial protocols like Modbus, PROFINET, DNP3, BACnet, or MQTT.
 
 These “hidden connections” can provide attackers with unexpected ways into your critical systems.
+
+### Ways you can lose your data
+
+I was recently tasked with helping a factory which had their data stolen, upon investigating I found that the data had actually not been stolen. the data had been taken because of poor policies, the factory allowed privately owned devices to be used on the network, and to access the company storage. the people in question had done as they had been told, they hooked up their personal phone to the company email server and file server, when they subsequestly changed jobs, their devices were not cleaned by the IT department;
+
+* Policy allowed for use of a personal device
+* No clear workflow and no policy on employee termination (Manager > HR > IT)
+* No proper isolation on company data on a personal device
+* No way for IT to clean a personal device after termination
 
 ## Trainer’s Profile
 
